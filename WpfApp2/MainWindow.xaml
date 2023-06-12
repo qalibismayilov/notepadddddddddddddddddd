@@ -1,0 +1,21 @@
+﻿<Window x:Class="WpfApp1.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WpfApp1"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+        <Image HorizontalAlignment="Center" Height="310" Margin="0,73,0,0" VerticalAlignment="Top" Width="512" Source="/light-gray-color-solid-background-1920x1080.png"/>
+        <Button x:Name="Save" Content="Save" HorizontalAlignment="Left" Margin="292,88,0,0" VerticalAlignment="Top" Background="White" Click="Button_Click" RenderTransformOrigin="0.211,0.653" BorderBrush="White" Width="42"/>
+        <TextBox x:Name="textbox" HorizontalAlignment="Center" Margin="0,126,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="498" Height="229"/>
+        <Button Content="Cut" HorizontalAlignment="Left" Margin="412,88,0,0" VerticalAlignment="Top" Width="36" BorderBrush="White" Background="White" Foreground="Black" Click="Button_Click_1" RenderTransformOrigin="0.774,0.319"/>
+        <ComboBox HorizontalAlignment="Left" Margin="151,87,0,0" VerticalAlignment="Top" Width="120" x:Name="Combobox1"/>
+        <Button Content="Copy" HorizontalAlignment="Left" Margin="472,88,0,0" VerticalAlignment="Top" BorderBrush="White" Background="White" Click="Button_Click_2" RenderTransformOrigin="0.841,0.453" Width="36"/>
+        <Button Content="paste" HorizontalAlignment="Left" Margin="526,88,0,0" VerticalAlignment="Top" Background="White" Click="Button_Click_3" RenderTransformOrigin="2.536,0.737" BorderBrush="White" Width="36"/>
+        <Button Content="Select all" HorizontalAlignment="Left" Margin="580,88,0,0" VerticalAlignment="Top" Background="White" Click="Button_Click_4" Width="69" BorderBrush="White"/>
+        <Button Content="autosave" HorizontalAlignment="Left" Margin="349,88,0,0" VerticalAlignment="Top" Background="Black" BorderBrush="Black" Foreground="White" Click="Button_Click_5"/>
+
+    </Grid>
+</Window>
